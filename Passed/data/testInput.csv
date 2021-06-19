@@ -1,0 +1,67 @@
+Action,Target,Value
+open,https://labvn54.primas.net:9443/LinkScopeWeb/,
+name,TC1: enter wrong username password,
+enter,"//*[@id=""UserName""]",hello
+enter,"//*[@id=""Password""]",123456
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again."
+name,TC2: enter wrong username password,
+enter,"//*[@id=""UserName""]",123
+enter,"//*[@id=""Password""]",123
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC3: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{STRING|10}}
+enter,"//*[@id=""Password""]",{{STRING|1000}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC5: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC5: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC6: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC7: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC8: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC9: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{STRING|10}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC10: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER|2}}{{STRING|4}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC11: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{DATETIME|1990-01-01|1991-01-20}}the string.{{DATE}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC12: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{NUMBER}}
+enter,"//*[@id=""Password""]",{{STRING|10}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
+name,TC13: enter wrong username password,
+enter,"//*[@id=""UserName""]",{{DATE|1990|2021}}
+enter,"//*[@id=""Password""]",{{DATE}}
+click,"//*[@id=""loginForm""]/form/input",
+result,"//*[@id=""loginForm""]/form/div[1]/ul/li","The user name or password is incorrect, please try again...."
