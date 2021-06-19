@@ -1,0 +1,1400 @@
+{
+  "id": "d205544e-13a3-40af-af63-e4a5b4cc768f",
+  "version": "2.0",
+  "name": "TextApp_Publisher/Subscriber_Create",
+  "url": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+  "tests": [{
+    "id": "21ef9b4f-2b71-4eb9-bc3c-dbfd92e8e324",
+    "name": "Create_1",
+    "commands": [{
+      "id": "18a9d66b-0917-4e21-8d74-5679ab3145dd",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab16f7c-d386-4d05-a02e-90e8686fa41c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a97f850f-7d2c-4ffe-a6bb-20208b19984f",
+      "comment": "",
+      "command": "click",
+      "target": "id=addPhoneNumber",
+      "targets": [
+        ["id=addPhoneNumber", "id"],
+        ["css=#addPhoneNumber", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='sub_pub']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a35e5b-3563-4fb1-ac44-88b4edd055cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "718e6ce6-cb33-4ea3-b205-8978ed08858a",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "                     "
+    }, {
+      "id": "f33a6f89-4ec7-4fbe-81b6-852234860b3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95ddb03d-e545-465a-8bbb-089ef549fd6e",
+    "name": "Create_2",
+    "commands": [{
+      "id": "306dc2f5-568a-40ff-aa93-dfb77b434526",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d4d3caa-29e6-4f9a-ae4a-4dd48ffe14fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ce0d810-c661-4773-9dcd-51e8364fce5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df0ed4e-8f6b-4106-839c-977e71468313",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4acba9c0-40a0-4979-9958-029b316c6d77",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "dhfdh"
+    }, {
+      "id": "e687aa91-30eb-41d0-93aa-2b225711da80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac898756-60f6-4f50-a0a8-de5fdd9e7fbd",
+    "name": "Create_3",
+    "commands": [{
+      "id": "2afaea71-b51f-4155-a39a-46d1bf202b00",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5bc6de7-bc56-4793-9550-5539623ef3d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "393eabc1-0f13-425b-a588-41071b9ae581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50eeade7-c7bc-4a36-9884-a20b3f78cf79",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51aabc34-cdb9-43bb-bcba-87afa8f20098",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "ce0d03b0-4e53-46d6-9149-074af7851051",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66992a97-1472-4c83-93b7-733a8a48bec1",
+    "name": "Create_4",
+    "commands": [{
+      "id": "9082961e-0d97-46b9-9c42-7109fb2fb36a",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43e58bf7-dc57-48a3-93a4-b4af29961477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e197eb69-0c37-4258-8d18-2a129f98278d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65dcfcb5-9748-43f1-b8b7-d7f3cabd27bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c9ec98-f6b6-41ed-a782-47437b941427",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "0dbeff30-4b15-485d-b8f0-377afdf4f704",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "990676ae-5a48-4262-bb40-0469dc6c3b0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6047d5e-3a63-426d-8ab7-f2554bee62e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5eaf53d-d2b0-4751-93ef-faf2bf68a9d4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa55c4b9-3a1c-4d94-8319-d620f7a057ff",
+    "name": "Create_5",
+    "commands": [{
+      "id": "3526c55f-9e4f-4ab6-8da8-ad6a947c20ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "553e3aa8-d1e0-4547-8979-8211c2db2215",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dae234d-9396-43bb-97bd-60f51b9decaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b9e5c56-b265-4210-91bf-e9c194632cde",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08f6ec45-85cf-4351-8c06-18fa37368ae1",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "23bb15d2-424d-4dda-acfb-f516d77ba87c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[6]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3a347e-8587-4ba1-96e1-922e20c1e730",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='DistributionGroupID_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[53]/div/div[3]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aba7ce9-b25d-4a88-ae26-f8a9daea8a76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c9f81b5-8da4-46b1-9b3b-369590dbd6cf",
+    "name": "Create_6",
+    "commands": [{
+      "id": "10bde9d1-c437-4ace-a604-c50503b179f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecb2aa2e-ea5c-4b2b-bd5e-d4c60dcc9d8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2116c85-5b50-41f0-979b-445d70c29dd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=addPhoneNumber",
+      "targets": [
+        ["id=addPhoneNumber", "id"],
+        ["css=#addPhoneNumber", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='sub_pub']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bfd9fab-c4fa-4cef-a509-c098db4dedf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "442c0eb7-a035-4f5b-8f9b-cc53fc40e123",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "4b5b2e22-88c1-42a2-b1a8-e3a2dc49e328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[8]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f6d36a-3d45-4bb9-a536-886e08b3ade5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='Status_listbox']/li", "xpath:idRelative"],
+        ["xpath=//div[54]/div/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Inactive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3baf298e-aea7-4f18-a039-62b4ab18dc64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "572df007-f18e-44d5-8d53-4b75dd97df6e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2120dc21-896d-4b57-8c90-5ee281dd9682",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bef8df08-41d5-4152-83ba-0e3fa03c95bd",
+    "name": "Create_7",
+    "commands": [{
+      "id": "24da9395-000d-4a79-ae0a-a290bec76754",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa0841a8-9d65-485c-afe2-ca4a5cd8e067",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31293cc2-4064-424f-8415-8f3338eca183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e882b8-2e7e-4dea-9172-9bc58d741dee",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb571d3-24c0-4906-bd7c-ae0637f9aba9",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "f9e5bca6-ea1f-4868-bb0c-6fea123e2f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3d724e-5064-4233-a46c-3a66b6c1436d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='PhoneType_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[52]/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9ce55ab-dc65-44a3-8c7e-9fdd40cab90e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover .k-icon",
+      "targets": [
+        ["css=.k-state-hover .k-icon", "css:finder"],
+        ["xpath=//div[8]/span/span/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3268e33-62cc-46b9-a855-2d1c069589b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='Status_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[54]/div/div[2]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Subscribed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce9d1231-9998-4d96-be66-f0b7f3400546",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a4d2b36-e658-4dab-8caf-5b48735e1981",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f5b253c-7fff-4838-b4d0-cd8cb199377f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af5716a5-e8f8-45c8-a726-7a750e8872e9",
+    "name": "Create_8",
+    "commands": [{
+      "id": "20da7fb2-04af-40c8-8b7b-c84f1e6a047a",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b099402-4281-41ea-8bda-994a64489dd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3750d01-69f5-4290-9167-409810cef1df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faff8063-c822-4acc-a636-ba0b17959e7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f79f17a-ac5a-4b24-bd1e-d48c4aa7bc3b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61511eb-9bf2-44d6-b5d0-e0ee518e2975",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "edd4f80d-11d5-43d6-8864-a8008bb10e78",
+    "name": "Create_9",
+    "commands": [{
+      "id": "d87c44cc-0cd6-476e-80ec-a0ed68ca969d",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b7a5db2-3661-40f9-99ba-d834e617e347",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1836551a-185a-456a-b850-5c0df3881e7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce15c5ef-f4eb-4b95-b881-99012c7b4387",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "293bffd9-bc99-4d37-8674-1bb0420b78be",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "                 "
+    }, {
+      "id": "680b1c61-716f-4531-b26e-edbaf4554260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[6]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14205d5c-d190-4086-823a-c72d0649791a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='DistributionGroupID_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[53]/div/div[3]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3242c567-5fa8-4881-9f1f-c6d0877a0aaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[8]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b7ecc8-b064-44c8-bcb2-a86d17f0c10a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='Status_listbox']/li", "xpath:idRelative"],
+        ["xpath=//div[54]/div/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Inactive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "225ca3dc-5ca9-4c62-9cef-0dedecbffbe4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa3aba20-7b88-42a9-b16d-d6ea321c0bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='PhoneType_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[52]/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95b171b-04d9-4ab8-a7ae-c97b1353897a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a0114efa-2fba-4096-8f00-6f39748c40de",
+    "name": "Create_10",
+    "commands": [{
+      "id": "40ab0682-9a04-461a-a2b0-dbbceb6b62d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cb78d8d-00e8-4f6f-abe7-f3d67531d1cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0972bd7b-3ecc-4f48-bc3e-82584ac4640a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7e7c7f-a7fa-4027-a40f-7c5617db4aa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a055ca12-b641-4c38-8ff0-d80b6b0206cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "b594b2f0-6d7d-445c-a1aa-1562dd5081d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0644b2-3383-4346-b87c-94beaab276bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0081ca70-adea-4f67-9677-221196c1235d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5306918a-5ba2-4714-8494-7d9b368d847c",
+    "name": "Create_11",
+    "commands": [{
+      "id": "30793200-ea5a-4272-9bb6-8c68ebb96095",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18a503b8-b2a8-4dd4-9974-c7e19a569951",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f79186e-8a82-4f77-8273-f831ac46cfcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=addPhoneNumber",
+      "targets": [
+        ["id=addPhoneNumber", "id"],
+        ["css=#addPhoneNumber", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='sub_pub']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a4241a-4766-4336-8b10-732773f33545",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddfbcdad-febf-48d9-8eda-da3fda608229",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d46bcbe9-4128-41ec-99ef-4dd468e25343",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1234567890-"
+    }, {
+      "id": "f642faa8-935f-48eb-9f9d-33c632603bbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f90ec1-be75-4210-9a93-a0fc1716936c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d7a9e8d7-a7eb-4e9a-b7f2-51080e9502c4",
+    "name": "Create_12",
+    "commands": [{
+      "id": "d30e85c4-ac16-4f0e-bb2c-b506569538e8",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b457d71-06d8-4d0c-ae7a-9839c5c31418",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7754f9c-4c1e-4abc-aec5-02171f65825e",
+      "comment": "",
+      "command": "click",
+      "target": "id=addPhoneNumber",
+      "targets": [
+        ["id=addPhoneNumber", "id"],
+        ["css=#addPhoneNumber", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='sub_pub']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3454d841-7ed0-458e-ba69-4f202b288dc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6384bb0-22f3-4acc-8a8f-02f7ad310a53",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1234567880"
+    }, {
+      "id": "db244daf-effd-4242-96be-fff16540d1f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ff8ae1-d530-46cd-a0c1-c9f0e0abcf14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='PhoneType_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[52]/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29961d52-7ac8-482a-ac72-f486ac8817a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[6]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27984366-e0e2-4474-bc61-2908594db4fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='DistributionGroupID_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[53]/div/div[3]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38cd36ea-dc56-4953-a53d-90ea68002250",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[8]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c48290e-60ad-47dd-992c-b1c947cb29a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='Status_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[54]/div/div[2]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Subscribed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c7135c-20f4-4f4b-9b12-846563a6242d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "108ee022-3522-45ef-b50f-5870ac4eccba",
+    "name": "Create_13",
+    "commands": [{
+      "id": "2cd9d8bc-685d-4350-9247-93f7590fb485",
+      "comment": "",
+      "command": "open",
+      "target": "https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06da998-e1e7-4013-97dc-231c30602a20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1252ed50-1788-441a-a09a-60c783059154",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-none",
+      "targets": [
+        ["css=.d-none", "css:finder"],
+        ["xpath=//button[@id='addPhoneNumber']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Add Publisher/Subscriber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7130c09-369c-4413-a47c-2ceb72a7bfa9",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "536d972a-92a4-49b4-8297-3c1491042099",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumber",
+      "targets": [
+        ["id=PhoneNumber", "id"],
+        ["name=PhoneNumber", "name"],
+        ["css=#PhoneNumber", "css:finder"],
+        ["xpath=//input[@id='PhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "11234567890"
+    }, {
+      "id": "28ef08ba-26a8-45e0-8fcd-7211889c8d87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1867596d-e0b3-49cb-b8c6-103835291afb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='PhoneType_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[52]/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5226c14-76cd-4e35-8208-c5f65d2383c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-focused > .k-input",
+      "targets": [
+        ["css=.k-state-focused > .k-input", "css:finder"],
+        ["xpath=//div[2]/div/div[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c7777e8-416b-43c2-a1dc-675f1dda7606",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='PhoneType_listbox']/li", "xpath:idRelative"],
+        ["xpath=//div[52]/div/div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13c33bda-e339-47eb-a48f-05f9ee04d813",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[6]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc4d01d-29b8-4c97-ad7a-73c8a3011e99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='DistributionGroupID_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[53]/div/div[3]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83732754-ae41-498f-9eb3-b6335e2ddc67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover > .k-input",
+      "targets": [
+        ["css=.k-state-hover > .k-input", "css:finder"],
+        ["xpath=//div[8]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "845028ab-20e9-4c8b-ad82-9883ec4d1bee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.k-state-hover",
+      "targets": [
+        ["css=.k-state-hover", "css:finder"],
+        ["xpath=//ul[@id='Status_listbox']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[54]/div/div[2]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Active')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e54584-0b65-4007-8612-f1570d6b0070",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": "38.5625,10.71875"
+    }, {
+      "id": "86514128-9e2c-4f1d-bd77-9256fbb5ddd4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Update",
+      "targets": [
+        ["linkText=Update", "linkText"],
+        ["css=.k-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b5360266-a985-4ef1-849c-06d5c381b02c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["21ef9b4f-2b71-4eb9-bc3c-dbfd92e8e324"]
+  }],
+  "urls": ["https://labvn61.primas.net:8443/LinkScopeWeb/UWTextApp/index/UWTextApp"],
+  "plugins": []
+}
