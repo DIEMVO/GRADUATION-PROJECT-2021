@@ -1,0 +1,860 @@
+{
+  "id": "01b61159-43d5-44ce-9e52-286569942eb9",
+  "version": "2.0",
+  "name": "TRA CỨU MÃ VẬN ĐƠN",
+  "url": "https://jtexpress.vn/",
+  "tests": [{
+    "id": "0c274e9c-5f03-428e-b832-524c74f624e8",
+    "name": "Search_Default_value",
+    "commands": [{
+      "id": "94413c7a-5586-4092-abe9-5c8cfad515c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6dca001-5e21-4720-9818-26cf474dcf7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a4455c6-2c57-40f7-967c-88b8591fa02b",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f64fa69-874f-49c5-857b-68c82ffab154",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cc1f5ad6-920b-4309-b5fd-e60fc34189c1",
+    "name": "Search_Space_Value",
+    "commands": [{
+      "id": "8c3faab4-072f-4ef2-9d21-1b347a7ee0d5",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57e396e2-2c31-4b8a-a457-9476713072ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95792547-101a-4fe6-a846-d3fda2e47ce8",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76937077-078c-4655-ae72-9836f5abefe1",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "                             "
+    }, {
+      "id": "c5ddf971-9243-422c-9b92-1b65dbcb178c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "424a6f90-6beb-4012-8bcd-0d3754f2fa51",
+    "name": "Search_Character_value",
+    "commands": [{
+      "id": "6859c9a1-b05b-443f-8403-625ccfc7cd58",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2914c54a-75ff-41c3-9d13-995e3c031abb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5545e6ea-81bf-4a89-9a81-b0da766b5ae4",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ade359-af69-454e-857f-812eade71887",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dsfdfdgfg"
+    }, {
+      "id": "09ad1f6c-fdd7-4db1-99df-c8b03b553107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1aad6f18-97b9-4a6b-b291-367ef6be1a1b",
+    "name": "Search_Wrong_Input",
+    "commands": [{
+      "id": "7985f366-1330-4eb7-a32f-242529881d3d",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "554a2ddc-92d9-4416-9b54-b6d637307506",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46bf0ef7-6592-41de-b089-18058444fe63",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "552488fe-e131-4ecf-aad6-cf1d9985c45f",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "121323"
+    }, {
+      "id": "d0bb14b2-2e54-4877-81bc-3dbade850280",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f576ae86-3f8e-4fb0-ba41-1b8319f9df26",
+    "name": "Search_Wrong_Input_1",
+    "commands": [{
+      "id": "ca635216-c612-4773-8a3b-45d9fc8d730f",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dd980a4-e3f3-4143-8f5b-8349448436f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca7ed22-7189-41fd-8a40-29282b732aca",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4379b4ae-d7ac-44e4-8222-ceface601ed1",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test123"
+    }, {
+      "id": "0977c9df-ba80-40c4-9f9b-377820ba4c03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "27b9aa42-0402-4a19-931f-8ff1b4a26f11",
+    "name": "Search_Wrong_Input_2",
+    "commands": [{
+      "id": "7389040d-05a2-42f5-b919-6eb7144cdb38",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfa8d322-ba98-428e-a7d8-9e3f39304fa6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77740b4f-5c4a-47d0-a60b-bfa0979af188",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0566fc91-30b7-4294-8171-1fca990ce2ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "833a8b03-0805-4cd8-837c-1b58d23e489d",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@@@!11"
+    }, {
+      "id": "5c72f4ae-2779-4dd9-8485-a68f27d078a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc357e8b-fd1d-4423-90f0-713415ebb315",
+    "name": "Search_Wrong_Input_3",
+    "commands": [{
+      "id": "c32036d6-fc00-4d53-adf1-fa6df7190f19",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c221294-6b36-42d8-8625-7ac46890580d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7ff36df-6933-489c-b26c-11281d239f88",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4aa7064-9eff-48ab-bfef-d1ef2c4a5014",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    }, {
+      "id": "e698d84d-8b25-49bf-9545-15088ccd015e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42ec9457-0f24-4ffd-9586-0d92f2c337ac",
+    "name": "Search_Correct_Input",
+    "commands": [{
+      "id": "9c70f52a-524b-420f-81d3-a17d0eaeb14f",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e59239a8-5ff3-42b3-8854-7d255fa6e4ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5283018d-5d27-427a-a54f-dc2e56d5220f",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06855837-6ead-487e-832b-79f8096a2216",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034294109"
+    }, {
+      "id": "dffdb173-8579-47f0-9c84-91b4a1659c50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fab5a6cd-00f5-4e80-bade-e9412340eb55",
+    "name": "Search_Correct_Input_1",
+    "commands": [{
+      "id": "aa1702a7-c2ea-4b13-905f-16abdbfe0723",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c38e1f5b-a7ca-4766-9544-02ca53eb6c58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae0b692f-1b2d-44c0-a85b-c253d5241943",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c016eba1-8d05-4242-b3ad-eb92bdb24da7",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034373752, 811034294109"
+    }, {
+      "id": "ef8ce5a8-7250-4a2d-ba9e-d66bc588caa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1c46daf-7ef0-42b7-aec5-947d4e2b1442",
+      "comment": "",
+      "command": "click",
+      "target": "css=#heading-811034294109 > .btn",
+      "targets": [
+        ["css=#heading-811034294109 > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='heading-811034294109']/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfec414d-a485-41da-8613-5046df489e06",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c44c1f61-4663-43ad-9690-1de5ddced89d",
+    "name": "Search_Double_Value",
+    "commands": [{
+      "id": "8e1850cb-3442-423f-b866-a4cd778839fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d600b05-a945-47ec-9214-02854efe4923",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0de35df-c31a-44c2-af76-ea69261443bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a96b383f-d25e-4322-bb5a-c277b0d631fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034294109,811034294109"
+    }, {
+      "id": "6aa272e4-0fa4-4f22-9301-ee4f7e34ad58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "440538fc-a395-40a3-b23e-9231d8dcdcf6",
+    "name": "Search_Repeat_Value",
+    "commands": [{
+      "id": "fb811657-81e1-4e94-b2e4-17ec85a95f0a",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c6473e-9737-4a7f-86c9-d429e6cc75e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7fe6036-7403-4b2f-8ae8-dcb55a42a70c",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67fb7788-7886-49ec-aacf-ad5998595571",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034294109,811034294109,811034294109,811034294109,811034294109,811034294109,811034294109,811034294109,811034294109,811034294109"
+    }, {
+      "id": "6db6cf13-6199-4f28-a406-5faa54df1457",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9770168-bcbe-42fb-b221-ab6dcdaad2e3",
+    "name": "Search_Maximum_Value",
+    "commands": [{
+      "id": "e2352ce4-7c75-45c3-a4a4-4b0896af2b71",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80901b61-ecb6-4626-ae44-701fc8c2708d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b9e6da7-6e45-4ce3-b5dd-2d4e6d90a151",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7425bfa0-a24a-460b-affc-23b2130a1302",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034373752, 811034294109,811033793245,811030929852,811030788181,811028904468,811028331047,812076439205,811024023278,811023892951"
+    }, {
+      "id": "00fcc4a7-de18-431d-a833-9a40c8d69dce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b33de50b-0cc0-4bea-9239-b66365a141f0",
+    "name": "Search_Toomax_Value",
+    "commands": [{
+      "id": "426d926e-62a6-424a-a55b-f43e59fa05b0",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f7edac6-2f03-45e8-aa9f-5ac40042a9bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e88ab00-70b7-40ab-81b5-a17696c341c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "713786a8-1d1f-48c0-a767-0900f7b643af",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034373752, 811034294109,811033793245,811030929852,811030788181,811028904468,811028331047,812076439205,811024023278,811023892951,811023320769,812057306854,811016584379"
+    }, {
+      "id": "b8885658-f5b0-4476-9d05-3d343e92409b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "951cce49-65cc-4ea9-b7aa-6f021108c36a",
+    "name": "Search_Wrong_Input_4",
+    "commands": [{
+      "id": "8d80c5d3-1e58-4ea0-af45-e55904d2cfd8",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84fc58b2-70c5-4d41-aee9-4ad69c9ce4f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e8f6c95-e642-45a1-aa1f-2cc9520e59e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43af26f-7089-42e3-af78-a3283954725c",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034294109, asdjsjfhd "
+    }, {
+      "id": "29770eef-a9e8-4bb3-ab5d-308eaf85169b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc50077-4083-4b64-94be-6ea0a3286887",
+      "comment": "",
+      "command": "click",
+      "target": "css=#heading-asdjsjfhd > .btn",
+      "targets": [
+        ["css=#heading-asdjsjfhd > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='heading-asdjsjfhd']/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1a082c2-e98b-4ad9-bf22-5919565502bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c274e9c-5f03-428e-b832-524c74f624e8"]
+  }],
+  "urls": ["https://jtexpress.vn/"],
+  "plugins": []
+}
