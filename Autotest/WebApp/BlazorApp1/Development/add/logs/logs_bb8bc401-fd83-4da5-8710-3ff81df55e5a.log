@@ -1,0 +1,31 @@
+22:57:22.732 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+22:57:24.038 [main] INFO  Kltn2021.Passed.MustPass - Web application launched
+22:57:24.043 [main] INFO  Kltn2021.Passed.MustPass - TC1: enter wrong username password
+22:57:25.719 [main] INFO  Kltn2021.Passed.MustPass - hello
+22:57:27.021 [main] INFO  Kltn2021.Passed.MustPass - 123456
+22:57:28.383 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input
+22:57:29.448 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again.
+22:57:29.448 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again.
+22:57:29.449 [main] INFO  Kltn2021.Passed.MustPass - TC2: enter wrong username password
+22:57:30.664 [main] INFO  Kltn2021.Passed.MustPass - 123
+22:57:31.835 [main] INFO  Kltn2021.Passed.MustPass - 123
+22:57:33.118 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input
+22:57:35.665 [main] INFO  Kltn2021.Passed.MustPass - Your account has been locked, please contact your administrator!
+22:57:35.665 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again....
+22:57:35.666 [main] INFO  Kltn2021.Passed.MustPass - TC3: enter wrong username password
+22:57:36.990 [main] INFO  Kltn2021.Passed.MustPass - 123123
+22:57:38.189 [main] INFO  Kltn2021.Passed.MustPass - primas
+22:57:39.479 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input
+22:57:41.917 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again.
+22:57:41.918 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again..
+22:57:41.918 [main] INFO  Kltn2021.Passed.MustPass - TC4: enter wrong username password
+22:57:43.174 [main] INFO  Kltn2021.Passed.MustPass - primas123
+22:57:44.450 [main] INFO  Kltn2021.Passed.MustPass - primas
+22:57:45.794 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input
+22:57:46.848 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again.
+22:57:46.848 [main] INFO  Kltn2021.Passed.MustPass - The user name or password is incorrect, please try again.
+22:57:46.848 [main] INFO  Kltn2021.Passed.MustPass - TC5: enter wrong username password
+22:57:48.020 [main] INFO  Kltn2021.Passed.MustPass - 40012
+22:57:49.279 [main] INFO  Kltn2021.Passed.MustPass - 40012
+22:57:55.699 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input
+22:57:57.852 [main] INFO  Kltn2021.Passed.MustPass - Browser closed

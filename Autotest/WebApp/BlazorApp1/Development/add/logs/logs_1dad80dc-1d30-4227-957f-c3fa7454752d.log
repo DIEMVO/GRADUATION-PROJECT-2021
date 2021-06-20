@@ -1,0 +1,36 @@
+23:04:01.335 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+23:04:03.736 [main] INFO  Kltn2021.Passed.MustPass - Web application launched
+23:04:03.745 [main] INFO  Kltn2021.Passed.MustPass - TC1: Order and checkout
+23:04:05.251 [main] INFO  Kltn2021.Passed.MustPass - standard_user
+23:04:06.583 [main] INFO  Kltn2021.Passed.MustPass - secret_sauce
+23:04:07.928 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="login-button"]
+23:04:09.062 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="add-to-cart-sauce-labs-backpack"]
+23:04:10.330 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="add-to-cart-sauce-labs-bolt-t-shirt"]
+23:04:11.475 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="add-to-cart-sauce-labs-onesie"]
+23:04:12.621 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="shopping_cart_container"]/a/span
+23:04:13.693 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Backpack
+23:04:13.693 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Backpack
+23:04:14.759 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Bolt T-Shirt
+23:04:14.759 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Bolt T-Shirt
+23:04:15.835 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Onesie
+23:04:15.836 [main] INFO  Kltn2021.Passed.MustPass - Sauce Labs Onesie
+23:04:16.988 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="checkout"]
+23:04:18.174 [main] INFO  Kltn2021.Passed.MustPass - hanxu
+23:04:19.372 [main] INFO  Kltn2021.Passed.MustPass - hanxu
+23:04:20.553 [main] INFO  Kltn2021.Passed.MustPass - hanxu
+23:04:21.674 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="continue"]
+23:04:22.809 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="finish"]
+23:04:23.871 [main] INFO  Kltn2021.Passed.MustPass - THANK YOU FOR YOUR ORDER
+23:04:23.871 [main] INFO  Kltn2021.Passed.MustPass - THANK YOU FOR YOUR ORDER
+23:04:25.005 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="back-to-products"]
+23:04:25.005 [main] INFO  Kltn2021.Passed.MustPass - TC2: Number shopping cart
+23:04:26.108 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="add-to-cart-sauce-labs-backpack"]
+23:04:27.178 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="add-to-cart-sauce-labs-bolt-t-shirt"]
+23:04:28.229 [main] INFO  Kltn2021.Passed.MustPass - 2
+23:04:28.230 [main] INFO  Kltn2021.Passed.MustPass - 2
+23:04:29.341 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="shopping_cart_container"]/a
+23:04:30.426 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="remove-sauce-labs-bolt-t-shirt"]
+23:04:31.453 [main] INFO  Kltn2021.Passed.MustPass - 1
+23:04:31.453 [main] INFO  Kltn2021.Passed.MustPass - 1
+23:04:32.569 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="continue-shopping"]
+23:04:34.447 [main] INFO  Kltn2021.Passed.MustPass - Browser closed
