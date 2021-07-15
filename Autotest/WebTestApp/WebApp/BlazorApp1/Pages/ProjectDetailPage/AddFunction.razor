@@ -10,11 +10,6 @@
         <input @bind="@NewFunction.FunctionName" type="text" class="form-control" id="project-name" style="min-width:500px" />
     </div>
 
-    <div class="form-group">
-        <label for="year">Milestones</label>
-        <input @bind="@NewFunction.Milestones" type="text" class="form-control" id="project-link" style="min-width:500px" />
-    </div>
-
     <button @onclick="SaveFunction" class="btn btn-primary" style="margin:5px;">Submit</button>
     <button @onclick="Cancel" class="btn btn-secondary" style="margin:5px;">Cancel</button>
 </div>

@@ -41,10 +41,4 @@
     <Folder Include="FailedTestsScreenshots\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\css\Image\auto1.jpg" />
-    <None Include="wwwroot\css\Image\auto2.jpg" />
-    <None Include="wwwroot\css\Image\auto3.jpg" />
-  </ItemGroup>
-
 </Project>
