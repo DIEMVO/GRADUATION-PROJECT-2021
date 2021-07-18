@@ -31,10 +31,8 @@
 <Button id="btnRun" Color="Color.Success" Clicked="RunTestSession" disabled="@IsDisableButton">Run </Button>
 <a class="btn btn-info" href="/download/@reportFilename">Export</a>
 <a class="btn btn-secondary" href='javascript:history.go(-1)'> <i class="fas fa-angle-left"></i> Go Back</a>
-<br />
-<br />
-
-<div class="panel panel-default">
+<br/>
+@*<div class="panel panel-default">
     <div>
         <h3>Run Schedule setting</h3>
         <Switch TValue="bool" @bind-Checked="@IsScheduledTest">Schedule this test</Switch>
@@ -59,7 +57,7 @@
             <Button class="btn-primary" @onclick="SaveScheduleSetting" style="padding-top: 10px">Save setting</Button>
         </div>
     </div>
-</div>
+</div>*@
 
 <br />
 <h3>Test file content preview</h3>
@@ -303,36 +301,5 @@
     }
 
 }
-<style>
-    .radio-control {
-        margin: 5% 0 5% 40%;
-    }
 
-    @@media only screen and (max-width: 700px) {
-        .radio-control {
-            margin-left: 35%;
-            margin-top: 8%;
-        }
-
-        .control-section {
-            min-height: 200px;
-        }
-    }
-
-    @@media only screen and (max-width: 500px) {
-        .radio-control {
-            margin-top: 20%;
-            margin-left: 21%;
-            margin-bottom: 27%;
-        }
-    }
-
-    .control-section .row {
-        margin: 20px 0;
-    }
-
-    .e-bigger .radio-control h4 {
-        font-size: 20px;
-    }
-</style>
 

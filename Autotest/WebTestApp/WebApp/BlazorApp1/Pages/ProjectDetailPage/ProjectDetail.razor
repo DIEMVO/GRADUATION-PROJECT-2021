@@ -18,7 +18,7 @@
                 <TableHeaderCell>Id</TableHeaderCell>
                 <TableHeaderCell>Function name</TableHeaderCell>
                 <TableHeaderCell>Created Date</TableHeaderCell>
-                <TableHeaderCell>Modified Date</TableHeaderCell>
+                <TableHeaderCell>Schedule Test</TableHeaderCell>
                 <TableHeaderCell>    </TableHeaderCell>
             </TableRow>
         </TableHeader>
@@ -31,7 +31,9 @@
                         <TableRowCell>@function.Id</TableRowCell>
                         <TableRowCell>@function.FunctionName</TableRowCell>
                         <TableRowCell>@function.CreateDate</TableRowCell>
-                        <TableRowCell>@function.ModifiedDate</TableRowCell>
+                        <TableRowCell>
+                            <Switch TValue="bool"> </Switch>
+                        </TableRowCell>
                         <TableRowCell>
                             <Button class="btn" @onclick="() => NavigateDetail(function.Id)"><i class="fas fa-info-circle"></i> Detail</Button>
                             <Button class="btn" @onclick="() => UpdateFunction(function)"><i class="fas fa-edit"></i> Edit</Button>
