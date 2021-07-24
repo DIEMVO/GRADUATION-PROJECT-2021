@@ -7,12 +7,12 @@
 
     <div class="form-group">
         <label for="movie-name">Project Name</label>
-        <input @bind="@project.ProjectName" type="text" class="form-control" id="project-name" style="min-width:500px"/>
+        <input @bind="@project.ProjectName" type="text" class="form-control" id="project-name" style="min-width:500px" required />
     </div>
 
     <div class="form-group">
         <label for="year">Link</label>
-        <input @bind="@project.Link" type="text" class="form-control" id="project-link" style="min-width:500px"/>
+        <input @bind="@project.Link" type="text" class="form-control" id="project-link" style="min-width:500px" required />
     </div>
 
     <button @onclick="SaveProject" class="btn btn-primary" style="margin:5px;">Submit</button>

@@ -7,7 +7,7 @@
 
     <div class="form-group">
         <label for="movie-name">Function Name</label>
-        <input @bind="@NewFunction.FunctionName" type="text" class="form-control" id="project-name" style="min-width:500px" />
+        <input @bind="@NewFunction.FunctionName" type="text" class="form-control" id="project-name" style="min-width:500px" required />
     </div>
 
     <button @onclick="SaveFunction" class="btn btn-primary" style="margin:5px;">Submit</button>
@@ -28,6 +28,10 @@
 
     async void SaveFunction()
     {
+        if(NewFunction.FunctionName ==" ")
+        {
+            
+        }
         NewFunction.CreateDate = DateTime.UtcNow;
         NewFunction.ModifiedDate = DateTime.UtcNow;
         NewFunction.ProjectId = ProjectId;
