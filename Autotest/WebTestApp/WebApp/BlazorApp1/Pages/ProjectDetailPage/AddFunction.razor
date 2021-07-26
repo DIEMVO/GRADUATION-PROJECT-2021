@@ -28,9 +28,10 @@
 
     async void SaveFunction()
     {
-        if(NewFunction.FunctionName ==" ")
+        if (string.IsNullOrEmpty(@NewFunction.FunctionName))
         {
-            
+            await JsRuntime.InvokeAsync<bool>("confirm", "The project's function is not allowed to empty");
+            return;
         }
         NewFunction.CreateDate = DateTime.UtcNow;
         NewFunction.ModifiedDate = DateTime.UtcNow;

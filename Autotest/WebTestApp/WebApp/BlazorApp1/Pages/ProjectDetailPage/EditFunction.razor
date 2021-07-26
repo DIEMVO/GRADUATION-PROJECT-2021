@@ -27,6 +27,11 @@
 
     async void SaveFunction()
     {
+        if (string.IsNullOrEmpty(@function.FunctionName))
+        {
+            await JsRuntime.InvokeAsync<bool>("confirm", "The project's function is not allowed to empty");
+            return;
+        }
         function.ModifiedDate = DateTime.UtcNow;
         try
         {

@@ -32,6 +32,17 @@
 
     async void SaveProject()
     {
+        if (string.IsNullOrEmpty(@project.ProjectName))
+        {
+            await JsRuntime.InvokeAsync<bool>("confirm", "The project's link is not allowed to empty");
+            return;
+        }
+
+        if (string.IsNullOrEmpty(@project.Link))
+        {
+            await JsRuntime.InvokeAsync<bool>("confirm", "The project's name is not allowed to empty");
+            return;
+        }
         project.ModifiedDate = DateTime.UtcNow;
         try
         {
