@@ -2,7 +2,7 @@
   "id": "c34e4e1e-0ad0-443e-9a8f-cf9d318d4824",
   "version": "2.0",
   "name": "TRA CỨU THI ANH VĂN",
-  "url": "http://online.hcmute.edu.vn",
+  "url": "https://online.hcmute.edu.vn/",
   "tests": [{
     "id": "fe835336-9d8b-45c6-b4c5-cf3f10b3711b",
     "name": "Search_Wrong_input",

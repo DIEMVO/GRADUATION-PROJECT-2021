@@ -1,0 +1,666 @@
+{
+  "id": "6c0c7971-3bce-40fc-ab17-d1d3a0e6cab5",
+  "version": "2.0",
+  "name": "Practice Automation testing _&nbsp;Register",
+  "url": "http://practice.automationtesting.in/",
+  "tests": [{
+    "id": "c2c9328c-8b06-45d7-b1d9-d17e393e79b3",
+    "name": "TC_1",
+    "commands": [{
+      "id": "ff817226-27b6-4087-9391-ab01bb99befb",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5a40429-dec9-4e62-a222-c87bf89ec1d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "241aea1b-cae3-4ffa-a4dd-f200b0915d22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90774d0e-9ed2-4e36-8ae0-f7aaae5a6e39",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "93388acb-f325-46f6-b284-38b769c45a80",
+    "name": "TC_2",
+    "commands": [{
+      "id": "d63a1262-8456-40f4-8f98-a9346b0867f1",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6225ef8-4735-4746-ad05-b0f9db9007f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ae974a1-1d6d-4f2e-9497-a0a6bbf8f0c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38a91e2-251c-4214-a4f3-3f1784c9fc25",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f82462-8f40-49ef-b692-ab0347931ce5",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c48fabc1-e564-4234-9754-ac38e74c4fb0",
+    "name": "TC_3",
+    "commands": [{
+      "id": "4aa1f617-4455-4e79-b8c2-fb7cb316c4f3",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a5147cc-a4f3-4176-a645-6958d7ebb4f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ae87f3-8250-4333-82f7-f1e9c2b03ac4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2051252d-e2bb-4ffc-a41b-3ec4dadfd8c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "792fb0bb-fdf9-4d6b-8873-3e9afa0c4c01",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": "DIEMVO"
+    }, {
+      "id": "d76988b8-8357-49a4-9505-2f67e788484b",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9ea45a2-22e1-44a7-ad34-ec68466be482",
+    "name": "TC_4",
+    "commands": [{
+      "id": "248971d3-3848-4925-91ba-50dfaafb3179",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c168db4d-6eb1-416f-8337-c31a231c4367",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09c8cfe0-8a07-4e6f-aa56-504c6e81bf49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1101bc7c-140e-43b9-8366-738173c1982e",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a50f97b-1ed1-4fe6-8d58-8425158ffc99",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": "DIEMVO@GMAIL"
+    }, {
+      "id": "95bc3454-1974-4551-91d5-6e645909d324",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85923b6b-3146-4f0e-b55f-f865055a3943",
+    "name": "TC_5",
+    "commands": [{
+      "id": "bc60c8a7-6d23-4e7d-9bdd-ec6ca0f14381",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b3562e2-0983-43eb-94f1-f42fc1128735",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59ad3434-a833-465d-b49c-280c9c2104db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0004bfc-0251-4cd2-8745-31e47b419426",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ac1ba69-b686-476e-827d-9eaac2ed161b",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8bd1ed1-74be-4315-8427-493db04282ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "1234D"
+    }, {
+      "id": "5ccbbf7b-5164-41d9-b458-91348592bbb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register > .woocommerce-FormRow:nth-child(2) > label",
+      "targets": [
+        ["css=.register > .woocommerce-FormRow:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb48ce29-e109-4c01-82f0-e3a32957e4b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "Y6NY7qmfZ@WQdz6"
+    }, {
+      "id": "b5c7f3ed-1ffa-426a-a4a7-9921528bfa4b",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26eeb619-1a95-49dc-b664-b902aeffcb26",
+    "name": "TC_6",
+    "commands": [{
+      "id": "5afb31d7-d7de-4731-9cd5-44099a911a22",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd57b612-e0f9-40c6-be4c-de0801ff73b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2a6533e-4013-4fcb-8ae8-d50d9924a853",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76116bf-0954-4f92-beef-5074ffc9fe26",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdcfeb19-10d3-457c-873c-35bf5f7f7b78",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": "DIEMVO0806@GMAIL.COM"
+    }, {
+      "id": "285d6c02-09b6-4225-9135-bc0092c69156",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9cb4feb-0ce3-47dc-8ac0-bf8d5778ca6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "                "
+    }, {
+      "id": "6f57a09a-d0d7-419c-b0ae-71cda5ff8572",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_login",
+      "targets": [
+        ["id=customer_login", "id"],
+        ["css=#customer_login", "css:finder"],
+        ["xpath=//div[@id='customer_login']", "xpath:attributes"],
+        ["xpath=//div[@id='page-36']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84e93734-3e58-4a87-b21c-704cd9057db5",
+    "name": "TC_7",
+    "commands": [{
+      "id": "7aa3c030-fb3a-47da-a1f2-09f6271061a0",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e5b8323-e461-42e4-93ac-196d0ff884af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e33c429-ae3e-4e60-8f4c-5ba8ac1139e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=#menu-item-50 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-50']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/my-account/']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa247d2-f6ad-4028-b2b6-8caca2f17385",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b8a7e2-c397-43e6-a9db-b076223243e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_email",
+      "targets": [
+        ["id=reg_email", "id"],
+        ["name=email", "name"],
+        ["css=#reg_email", "css:finder"],
+        ["xpath=//input[@id='reg_email']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p/input", "xpath:position"]
+      ],
+      "value": "DIEMVO0608@GMAIL.COM.VN"
+    }, {
+      "id": "cd454004-3b68-497d-8643-904d458e560b",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09447b2e-98da-476b-9fd1-d96d29a4dc75",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "123D"
+    }, {
+      "id": "4fdab894-245d-49ad-854d-2278aba60544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register > .woocommerce-FormRow:nth-child(2)",
+      "targets": [
+        ["css=.register > .woocommerce-FormRow:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be15d0f-4f9a-41ac-965d-1df696753478",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82fb24dd-0422-43a2-9544-f2f5abac384b",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "123DDFDF"
+    }, {
+      "id": "6385f318-eb85-45ad-abce-59b212fe8f8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register > .woocommerce-FormRow:nth-child(2)",
+      "targets": [
+        ["css=.register > .woocommerce-FormRow:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe92a31-af85-4505-ab17-84f7b174cc24",
+      "comment": "",
+      "command": "click",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d16f1f2a-10fb-4446-827b-ce7db7a03765",
+      "comment": "",
+      "command": "type",
+      "target": "id=reg_password",
+      "targets": [
+        ["id=reg_password", "id"],
+        ["css=#reg_password", "css:finder"],
+        ["xpath=//input[@id='reg_password']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]/input", "xpath:position"]
+      ],
+      "value": "123DDFDFDFDF"
+    }, {
+      "id": "bf458cb5-1cab-4ad5-b9f9-ef1812f6c2b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register > .woocommerce-FormRow:nth-child(2)",
+      "targets": [
+        ["css=.register > .woocommerce-FormRow:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f271af47-2392-4f73-9ba8-07e8b6ef874a",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=.woocomerce-FormRow > .woocommerce-Button", "css:finder"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//div[@id='customer_login']/div[2]/form/p[3]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/p[3]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "58d33e07-89ff-4aba-a46f-2050906fab10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2c9328c-8b06-45d7-b1d9-d17e393e79b3"]
+  }],
+  "urls": ["http://practice.automationtesting.in/"],
+  "plugins": []
+}

@@ -776,6 +776,76 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "951cce49-65cc-4ea9-b7aa-6f021108c36a",
+    "name": "Search_Wrong_Input_4",
+    "commands": [{
+      "id": "8d80c5d3-1e58-4ea0-af45-e55904d2cfd8",
+      "comment": "",
+      "command": "open",
+      "target": "https://jtexpress.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84fc58b2-70c5-4d41-aee9-4ad69c9ce4f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e8f6c95-e642-45a1-aa1f-2cc9520e59e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43af26f-7089-42e3-af78-a3283954725c",
+      "comment": "",
+      "command": "type",
+      "target": "id=billcodes",
+      "targets": [
+        ["id=billcodes", "id"],
+        ["name=billcodes", "name"],
+        ["css=#billcodes", "css:finder"],
+        ["xpath=//input[@id='billcodes']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "811034294109, asdjsjfhd "
+    }, {
+      "id": "29770eef-a9e8-4bb3-ab5d-308eaf85169b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .btn",
+      "targets": [
+        ["css=.col-12 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formTrack']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dc50077-4083-4b64-94be-6ea0a3286887",
+      "comment": "",
+      "command": "click",
+      "target": "css=#heading-asdjsjfhd > .btn",
+      "targets": [
+        ["css=#heading-asdjsjfhd > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='heading-asdjsjfhd']/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "d1a082c2-e98b-4ad9-bf22-5919565502bf",

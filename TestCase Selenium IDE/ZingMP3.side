@@ -1,0 +1,573 @@
+{
+  "id": "026a1c69-5a10-4a71-aebd-b94d217b9fac",
+  "version": "2.0",
+  "name": "ZingMP3",
+  "url": "https://mp3.zing.vn/",
+  "tests": [{
+    "id": "05ad44f3-81df-46d3-af43-d6af9bfe91ec",
+    "name": "TC_1",
+    "commands": [{
+      "id": "8d2507e5-ae46-4159-9d51-5b9f4dfbc415",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b270f490-11f3-479c-8a77-fe2759dae936",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb4f5863-e953-40d2-b5c2-8fd908bb7e78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f099b77-7650-4e8c-9f87-a28624a6eeca",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='            ']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "            "
+    }, {
+      "id": "b50a2287-647b-463b-b7e3-c6db98a94a3d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='            ']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2aaff021-d293-4639-b089-7736827efed5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.setting-item:nth-child(1) > .zm-tooltip-btn > .icon",
+      "targets": [
+        ["css=.setting-item:nth-child(1) > .zm-tooltip-btn > .icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00a39c77-ae54-4cc8-aaca-3af9b3d8985d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.setting-item:nth-child(1) > .zm-tooltip-btn > .icon",
+      "targets": [
+        ["css=.setting-item:nth-child(1) > .zm-tooltip-btn > .icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div/button/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f3872b-f0a7-4492-9f86-d6533215a560",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.setting-item:nth-child(4) > .zm-btn",
+      "targets": [
+        ["css=.setting-item:nth-child(4) > .zm-btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee130fad-1ba6-4794-97e4-eadb656e3232",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.setting-item:nth-child(4) > .zm-btn",
+      "targets": [
+        ["css=.setting-item:nth-child(4) > .zm-btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2c3e03f1-8de2-4420-b0a6-058f9f25e2fa",
+    "name": "TC_2",
+    "commands": [{
+      "id": "01e85751-f0d8-4fc9-933a-f0c2bdd39d4f",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32cde2bc-72fc-44c4-a043-a72369c1430b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ff947bf-e3b7-4851-acf5-8152a436b66e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='TC']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TC"
+    }, {
+      "id": "c28f5779-f22b-48c5-b41c-6fc5f0639e42",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='TC']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "c7902b02-9463-4be1-8c09-fd73c3af77ff",
+    "name": "TC_3",
+    "commands": [{
+      "id": "17ebe105-8b1e-46a7-8f7f-c27724be9768",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aec1423-d266-4590-87e5-f859bd1d63fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7d0c737-986f-4a3f-86c9-61b834f00bae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00713330-2d82-423b-9728-55331a063bd5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='@@@2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@@@2"
+    }, {
+      "id": "320200ac-1baf-44d7-a0da-e2c6f1405eb2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='@@@2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "e37e61f3-03b9-4fc3-a097-c4497cc6c414",
+    "name": "TC_4",
+    "commands": [{
+      "id": "517d2053-bcfa-4f38-85d9-268edb6c3dbb",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4e91e97-ec36-4da8-ab3b-0329d68290c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f0be497-3169-48ae-9213-77785afa30b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4694a5a4-0608-4d27-9c59-6ea7894d970f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='BAIHAT1233@']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "BAIHAT1233@"
+    }, {
+      "id": "b0d41054-fcf7-45f9-b3e4-5b40a6044439",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='BAIHAT1233@']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "d7547fda-58db-43f2-9eae-cc17cc68a71e",
+    "name": "TC_5",
+    "commands": [{
+      "id": "f5e1d487-b870-4879-befd-d953d4cac8e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be970d3a-e7ea-40b6-998b-d32dce541958",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eadd1927-9965-48fd-8feb-91f24887bdf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ic-search",
+      "targets": [
+        ["css=.ic-search", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/button/i", "xpath:idRelative"],
+        ["xpath=//form/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90e813f-3eb5-40fb-8360-ffdf0dc5d493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ic-search",
+      "targets": [
+        ["css=.ic-search", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/button/i", "xpath:idRelative"],
+        ["xpath=//form/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "689876af-3658-4e6b-8ce1-0b9edd76f0d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.setting-item:nth-child(1) > .zm-tooltip-btn",
+      "targets": [
+        ["css=.setting-item:nth-child(1) > .zm-tooltip-btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636f9adb-6cd5-4a61-a0ae-f2c4aeafbdcc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.setting-item:nth-child(1) > .zm-tooltip-btn",
+      "targets": [
+        ["css=.setting-item:nth-child(1) > .zm-tooltip-btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cd529a82-2e49-4e66-8e56-0a2a23240298",
+    "name": "TC_6",
+    "commands": [{
+      "id": "49dbea15-bfd5-4871-bc5a-61c7011abbe3",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "133e0c54-ef0f-4dfc-8cf5-97d6741d638b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2664cd44-c661-4262-8b5f-231cfbd6dda3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f94614-e47f-4b37-825a-76802ced324a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='NHAC XUAN']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "NHAC XUAN"
+    }, {
+      "id": "6195351b-abf7-4a31-9c7d-598f5163ee21",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='NHAC XUAN']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "d134f9db-7962-4905-9650-1fc478be4052",
+    "name": "TC_7",
+    "commands": [{
+      "id": "7b4929bb-ff7f-4bd8-bc08-d085ba4ba02b",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e5903eb-d102-491f-9cf0-45d1152a40f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe032e98-9ab9-47a6-b38e-a0661ac4e97d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac6906d7-2506-49ea-9637-53cd6873e826",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35804b80-c9d8-497d-916c-1f785a3df545",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd505781-e72f-42cd-a1cc-bcc26c9f0fea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f140d2e7-5727-4dc9-a88c-4e3a6947f2ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f20c68-3d5c-4534-9ebc-7777867bf104",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    }, {
+      "id": "03fe47b2-deb2-4efd-9ea7-0fb701f90567",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "33338f18-2ef0-4b87-b301-7dd72c836f30",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f38f562-cc13-4eb6-9681-52edb1f0708c",
+    "name": "TC_8",
+    "commands": [{
+      "id": "59a0008b-d82d-4fe6-adc4-5e701d2902da",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb7d2194-4499-4cf5-808a-627d20273c2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41ad425d-3437-44e0-97d7-9cc02a21be4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1bd239-d98c-4e95-a412-9cef2b4f0dbf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value=' XUAN']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " XUAN"
+    }, {
+      "id": "71b17ae7-6af9-4e20-9f92-626ccfd5a606",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value=' XUAN']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "6d4cae88-6e8a-432c-8ce5-104daac0a16b",
+    "name": "TC_9",
+    "commands": [{
+      "id": "b9ecb217-5351-43b5-9e38-49d12e04e37e",
+      "comment": "",
+      "command": "open",
+      "target": "https://zingmp3.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9534863-bf52-4d83-9727-e38e79e74b78",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ff33f96-52a8-46fa-a5ee-a6e80e763b66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d593ef5f-b101-4d1e-9480-2f3e4f807e71",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='XUAN  ']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "XUAN  "
+    }, {
+      "id": "aec4421a-36e9-4348-be41-d9236ca55f27",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@value='XUAN  ']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/header/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "0fa84c1e-7edf-437d-9678-7ab36efce3c9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05ad44f3-81df-46d3-af43-d6af9bfe91ec"]
+  }],
+  "urls": [],
+  "plugins": []
+}

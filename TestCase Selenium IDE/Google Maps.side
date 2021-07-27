@@ -1,0 +1,887 @@
+{
+  "id": "52e11f21-a02f-47b7-b888-0f274590308a",
+  "version": "2.0",
+  "name": "Google Maps",
+  "url": "https://www.google.com/maps/",
+  "tests": [{
+    "id": "b141eb11-2909-42ce-9d05-b467d826d928",
+    "name": "TC_1",
+    "commands": [{
+      "id": "eec339e6-1cbd-4cd4-9545-e13ad01d4617",
+      "comment": "",
+      "command": "open",
+      "target": "/maps/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44816db9-a464-4fda-9b3e-f6b1faa9e803",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b25dbd16-725e-46c4-8a1a-fbe10fc2366f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c359ce-dd52-4b1a-bf0a-b1a67a5bbdd6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a791f278-15ff-432a-af96-118b9dfd3c82",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "                "
+    }, {
+      "id": "095f3a1e-ab0b-438a-9f72-213b7aee5077",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b5078f-647c-4c2b-a715-13ecb93aa185",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3db7cfe7-8a1d-45e9-89c8-912c57b3227c",
+    "name": "TC_2",
+    "commands": [{
+      "id": "456dd09a-6882-44fb-ad84-299e3d778fe4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589211e4-ff87-4389-b8d8-6dbf980b804a",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69eb7c19-ceb2-4e27-a134-722daa0f9c7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e4b7d0-2c49-4fbc-bdde-c9a7f4a4e93e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00fb69e-bffb-43e6-ab50-be428bbd2757",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-directions",
+      "targets": [
+        ["id=searchbox-directions", "id"],
+        ["css=#searchbox-directions", "css:finder"],
+        ["xpath=//button[@id='searchbox-directions']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79015dd0-daa7-433a-9e89-6dd6461c344a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be43b588-89d6-4f34-88bb-c8dbfff9b10b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de15177f-9386-4102-afa6-e71ae497af73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "061e6749-4f4a-428f-a234-47566610c162",
+    "name": "TC_3",
+    "commands": [{
+      "id": "3c04bb4e-20eb-4bc1-9c76-09cb2b25e273",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b7fc5c3-30e6-462d-951d-f19f0b3af4d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c983af34-c221-4a48-bee0-70837406a729",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "369fba79-bfc3-4380-9f5d-df2a1549b192",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ef31e3-2572-4cf8-9f4b-bb632573c8ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "1111111111111111111"
+    }, {
+      "id": "8e115c52-053f-4b7e-9598-9bde11c2ec29",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5c8c33e-944b-4b57-ad20-1e0d7b88f2a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bf5e432-5a51-47ba-bf97-1e3a9c84f819",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gsst_a",
+      "targets": [
+        ["css=.gsst_a", "css:finder"],
+        ["xpath=//div[@id='searchbox']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "61bc0d73-5f3a-40c0-bb14-d4b87ef1ad67",
+    "name": "TC_4",
+    "commands": [{
+      "id": "2c32b92a-b9e3-478c-98b3-6b575b1a5298",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/@10.8621592,106.750095,15z",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1872b3ed-cfca-4880-bc3e-4ab65122688b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bade1b9d-51c8-4ffd-9a86-a7ea638cf4a7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ace5f846-1497-4222-b6ab-ccaacf945792",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "HỒ CHÍ MINH"
+    }, {
+      "id": "83e4f401-2404-4050-af89-248343e37019",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3936434-8466-43a1-a1bf-92c01b16781b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gsst_a",
+      "targets": [
+        ["css=.gsst_a", "css:finder"],
+        ["xpath=//div[@id='searchbox']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "13e927c4-1b87-4985-8507-be394eed11a6",
+    "name": "TC_5",
+    "commands": [{
+      "id": "67901281-4f5f-4669-95fe-b3f588553117",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/@10.8621592,106.750095,15z",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3438a875-402e-4de8-890e-356e94474fd5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eae894e-62c0-4a55-9450-ef9afc853bf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse50 .ZHeE1b-LK5yu-eEDwDf",
+      "targets": [
+        ["css=#sbse50 .ZHeE1b-LK5yu-eEDwDf", "css:finder"],
+        ["xpath=//div[@id='sbse50']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6fca421-0684-439d-b572-17121a907a37",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "123 HOÀNG ĐIEU"
+    }, {
+      "id": "614fb4bc-dfb1-4731-959c-b576f3adbc94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75fcc9c2-f637-4012-9cfa-0745b437fdc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_Ca",
+      "targets": [
+        ["css=.gb_Ca", "css:finder"],
+        ["xpath=//img[contains(@src,'https://lh3.googleusercontent.com/ogw/ADea4I4QYj39xFFedjOGIkyXQmJsIwEPeDlFk0H433bQW7k=s32-c-mo')]", "xpath:img"],
+        ["xpath=//div[@id='gb']/div/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "326e3008-e118-49f4-878e-c3faeb7d3751",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_Ca",
+      "targets": [
+        ["css=.gb_Ca", "css:finder"],
+        ["xpath=//img[contains(@src,'https://lh3.googleusercontent.com/ogw/ADea4I4QYj39xFFedjOGIkyXQmJsIwEPeDlFk0H433bQW7k=s32-c-mo')]", "xpath:img"],
+        ["xpath=//div[@id='gb']/div/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f8b77ec6-7acd-42fd-b9aa-d98f8db8080d",
+    "name": "TC_6",
+    "commands": [{
+      "id": "b1cd4078-e63a-4098-b883-b2f98b9d896d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/@10.8621592,106.750095,15z",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ad79e72-bc72-47f2-90f0-d3da1b28f05f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3362057e-9edb-4d07-8118-28062a7cdf5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "HOANG DIEU @@"
+    }, {
+      "id": "2141239f-8044-42ed-af42-3edbb7cef9e1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "bef2c1fb-1dd1-44b3-96d6-8a07d4694b20",
+    "name": "TC_7",
+    "commands": [{
+      "id": "212f264f-4bba-483c-ab09-1179fac7c8b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fb57bf8-9554-48c5-83d9-c0623f88d044",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e305b063-74ae-47a1-af6b-a5e94ba6d067",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "@@@"
+    }, {
+      "id": "6ee7d425-4842-4df7-bb01-2fbe902c36a3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchboxinput",
+      "targets": [
+        ["id=searchboxinput", "id"],
+        ["name=q", "name"],
+        ["css=#searchboxinput", "css:finder"],
+        ["xpath=//input[@id='searchboxinput']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc50']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "178a114a-85c0-45f7-b692-7451a7949d0d",
+    "name": "TC_8",
+    "commands": [{
+      "id": "108ce4e2-c38f-4150-83c9-949de9d3a355",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd42a30b-1269-416b-8cd8-1e7fd795eec1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "365abba9-7938-41cd-ae69-f23aef84c2e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-searchbutton",
+      "targets": [
+        ["id=searchbox-searchbutton", "id"],
+        ["css=#searchbox-searchbutton", "css:finder"],
+        ["xpath=//button[@id='searchbox-searchbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8cffdeb-f3cc-45c4-9eef-4d33dc188e4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse4 span:nth-child(7) > span",
+      "targets": [
+        ["css=#sbse4 span:nth-child(7) > span", "css:finder"],
+        ["xpath=//div[@id='sbse4']/div[2]/div/div/div/span[5]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/span[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87020926-d2d0-465e-8c53-d3964220b79d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d28c0f0-afa5-4446-8bdc-41bb634291d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.F8J9Nb-LfntMc-header-HiaYvf-LfntMc > img",
+      "targets": [
+        ["css=.F8J9Nb-LfntMc-header-HiaYvf-LfntMc > img", "css:finder"],
+        ["xpath=//div[@id='pane']/div/div/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdacafc9-83ba-4826-9716-bc506da4ae13",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.F8J9Nb-LfntMc-header-HiaYvf-LfntMc > img",
+      "targets": [
+        ["css=.F8J9Nb-LfntMc-header-HiaYvf-LfntMc > img", "css:finder"],
+        ["xpath=//div[@id='pane']/div/div/div/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e2f8b103-4bb3-44ce-b048-5dd59033e7bf",
+    "name": "TC_9",
+    "commands": [{
+      "id": "dea68e4a-6949-4fef-87b7-e028f1509237",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/@10.8621592,106.750095,15z",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea9cdcaf-74d5-4670-82a3-5f794787a17a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4df1d6d-7f88-4ffc-bc10-2f7ab5d37c58",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=searchbox-directions",
+      "targets": [
+        ["id=searchbox-directions", "id"],
+        ["css=#searchbox-directions", "css:finder"],
+        ["xpath=//button[@id='searchbox-directions']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee2e516a-a68b-43fd-8578-9fa951d7d6f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=searchbox-directions",
+      "targets": [
+        ["id=searchbox-directions", "id"],
+        ["css=#searchbox-directions", "css:finder"],
+        ["xpath=//button[@id='searchbox-directions']", "xpath:attributes"],
+        ["xpath=//div[@id='searchbox']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e7fc4c-86c8-4b2b-96a5-a5ea4fb13195",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox-directions-icon",
+      "targets": [
+        ["css=.searchbox-directions-icon", "css:finder"],
+        ["xpath=//button[@id='searchbox-directions']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92821d5c-f757-4d5e-88eb-fcc9da523395",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reverse",
+      "targets": [
+        ["css=.reverse", "css:finder"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[3]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "550fe47e-eb79-455c-883c-2b16613304aa",
+      "comment": "",
+      "command": "type",
+      "target": "css=#sb_ifc51 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc51 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc51']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c905bc49-9b5d-4f0f-9cbe-b39ebbb21900",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_ifc52 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc52 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc52']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28439359-d71e-417d-8ef4-23531dd70141",
+      "comment": "",
+      "command": "type",
+      "target": "css=#sb_ifc52 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc52 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc52']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "1c34a5c9-cec7-4de4-a2b5-8e604a400d29",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#sb_ifc52 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc52 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc52']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "8fec2008-383f-4c99-9a15-97ff417427e1",
+    "name": "TC_10",
+    "commands": [{
+      "id": "d835fdc8-31c1-4d35-8f9d-900f7845a8f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/maps/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec809074-6568-4612-8c8b-dd5ed0b492a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "209c4dd4-4491-4189-8b9e-cf928c0df2ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchbox-directions-icon",
+      "targets": [
+        ["css=.searchbox-directions-icon", "css:finder"],
+        ["xpath=//button[@id='searchbox-directions']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d98b8d-95d1-49e4-92af-4f0c57c74968",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.close-directions",
+      "targets": [
+        ["css=.close-directions", "css:finder"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8390b879-f878-4984-90dc-c7ea9f0fe787",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.close-directions",
+      "targets": [
+        ["css=.close-directions", "css:finder"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9faec42e-9432-43ed-bcd6-013f7053aa7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.directions-collapsing-mode-selector .travel-mode:nth-child(2) > button",
+      "targets": [
+        ["css=.directions-collapsing-mode-selector .travel-mode:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[2]/div/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c614709-8538-4bb4-8d04-90be45f418d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.directions-collapsing-mode-selector .travel-mode:nth-child(2) > button",
+      "targets": [
+        ["css=.directions-collapsing-mode-selector .travel-mode:nth-child(2) > button", "css:finder"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[2]/div/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f1ac33a-5f3c-4477-bc54-d9dab947dc3e",
+      "comment": "",
+      "command": "click",
+      "target": "id=directions-searchbox-0",
+      "targets": [
+        ["id=directions-searchbox-0", "id"],
+        ["css=#directions-searchbox-0", "css:finder"],
+        ["xpath=//div[@id='directions-searchbox-0']", "xpath:attributes"],
+        ["xpath=//div[@id='omnibox-directions']/div/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd25be7-1884-4ec4-a105-1e4a34a1c669",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_ifc51 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc51 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc51']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "078ad066-5de5-4579-8943-8c65b4194e84",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse6 .suggest-query > span",
+      "targets": [
+        ["css=#sbse6 .suggest-query > span", "css:finder"],
+        ["xpath=//div[@id='sbse6']/div[2]/div/div/div/span[4]/span", "xpath:idRelative"],
+        ["xpath=//span[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a08bcda-a0ca-43bc-9ce0-beedb2908f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse12 .suggest-query > span",
+      "targets": [
+        ["css=#sbse12 .suggest-query > span", "css:finder"],
+        ["xpath=//div[@id='sbse12']/div[2]/div/div/div/span[4]/span", "xpath:idRelative"],
+        ["xpath=//span[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4aa0a7-e742-4760-9db1-461aff5c9d24",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_ifc51 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc51 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc51']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfcb71e9-06e8-4c98-9a7d-22333e170825",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse40 span:nth-child(7) > span",
+      "targets": [
+        ["css=#sbse40 span:nth-child(7) > span", "css:finder"],
+        ["xpath=//div[@id='sbse40']/div[2]/div/div/div/span[5]/span", "xpath:idRelative"],
+        ["xpath=//span[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3116ec-2e64-4a6c-ac61-a0885ac588cc",
+      "comment": "",
+      "command": "type",
+      "target": "css=#sb_ifc51 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc51 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc51']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "THU"
+    }, {
+      "id": "e61f2a41-8391-4ca5-8c20-50506c35a128",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sb_ifc52 > .tactile-searchbox-input",
+      "targets": [
+        ["css=#sb_ifc52 > .tactile-searchbox-input", "css:finder"],
+        ["xpath=//div[@id='sb_ifc52']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd8a43f-646f-46c2-86f0-ac54243ad9b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sbse6 span:nth-child(7) > span",
+      "targets": [
+        ["css=#sbse6 span:nth-child(7) > span", "css:finder"],
+        ["xpath=//div[@id='sbse6']/div[2]/div/div/div/span[5]/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div/div/span[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8b114a-8e21-4f94-8435-3e1b488aa526",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c1fdd3a6-e18a-4c6c-ad9e-a7be5bdb55bd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b141eb11-2909-42ce-9d05-b467d826d928"]
+  }],
+  "urls": ["https://www.google.com/", "https://www.google.com/maps/"],
+  "plugins": []
+}

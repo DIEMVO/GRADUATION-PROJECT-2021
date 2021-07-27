@@ -1,0 +1,481 @@
+{
+  "id": "17af0765-e370-462a-9bb4-23b5f31a2ae0",
+  "version": "2.0",
+  "name": "Search_Atalink ",
+  "url": "https://qc.atalink.com.vn/",
+  "tests": [{
+    "id": "dd1f00c8-2973-4bd2-8ae2-b3f2e2fdb461",
+    "name": "Search_3",
+    "commands": [{
+      "id": "43a10c2c-9f6e-4999-a25f-23b3f03df4bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd340547-5421-4aa9-803b-2e862487e025",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "648d7e6d-2e24-4674-814c-dfbd69ac2c3b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='11111    ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "11111    "
+    }, {
+      "id": "6a04a217-9bd1-453e-837b-702020a79df9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='11111    ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "55386bc1-e97a-4033-a52f-e4a686899077",
+    "name": "Search_1",
+    "commands": [{
+      "id": "be340a76-bf69-46cf-8bd3-7b26323881d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6d839ce-0f5c-41fc-8906-7daef025f1bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d040a74-ad8f-438a-ae72-855e27db7300",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5b0d3e-37a9-4c57-8370-7151b06dd561",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='                  ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "                  "
+    }, {
+      "id": "bf85af8d-cc78-4956-8fcd-20c0b48fc6d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT > img",
+      "targets": [
+        ["css=.sc-pQsrT > img", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0b718251-4a86-478e-9b64-d206108da216",
+    "name": "Search_2",
+    "commands": [{
+      "id": "d604a85f-1e8f-4d60-addb-43e4bd23cb6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d2de939-1c4e-4154-9fea-ff3aefbf227f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3d71549-f29d-4988-9827-ac22d3befcd6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value=' 111']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 111"
+    }, {
+      "id": "36e300ab-771c-40af-9698-599158a328dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value=' 111']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "fe83a0e9-f892-47b7-b213-9152983ecdbc",
+    "name": "Search_4",
+    "commands": [{
+      "id": "47e83805-e2ed-4b61-9b51-af4b2a67d76c",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "950fb24c-a0ec-4ef3-bd00-dd3a1acea920",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35e667ed-61ce-4b9c-8d83-2b2d803fd2ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ebaee8-e55c-470a-a96b-9e75c2785e3b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='túi']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "túi"
+    }, {
+      "id": "97cfc9a5-e167-42fe-a928-414c2651a1aa",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='túi']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "6321e397-b665-4394-b663-fc52dc6a14ab",
+    "name": "Search_5",
+    "commands": [{
+      "id": "ef827de8-77bb-4e84-8bbd-919f422b2c10",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "120e472a-42f8-464e-9055-397285e9454b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6c4827-23c4-4af5-b26e-03dab355338d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68127b20-708c-4b1a-b42e-4168bf8b672c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='ghế ']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ghế "
+    }, {
+      "id": "7965a60d-2f9a-458c-b094-96887efc9d9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT",
+      "targets": [
+        ["css=.sc-pQsrT", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fbb0ba8-0c75-4951-8746-e2cb013953c1",
+    "name": "Search_6",
+    "commands": [{
+      "id": "1aa8e699-f3a3-4e16-937a-e6ec09b83c9a",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "320a216a-318f-4c0d-a8ae-ccd8a036cd11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a267e60a-84b1-4ab8-82f3-ab86352706c1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='@@@@']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@@@@"
+    }, {
+      "id": "24089bd5-0a37-4db4-9378-6640c0da9382",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='@@@@']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "5fb32097-43f9-4c56-a09a-e9e63bf193f3",
+    "name": "Search_7",
+    "commands": [{
+      "id": "201eec19-c9d1-4bbf-ad54-ec707505411d",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99f1f0d1-79d7-4fc8-b298-2aaadfdc561c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd3d4c8b-c3cf-49e4-be62-ab5ecf42b81e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='ghe1']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ghe1"
+    }, {
+      "id": "38fbef04-59a1-4e17-bc80-76fb1562204f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT",
+      "targets": [
+        ["css=.sc-pQsrT", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3b95e8ff-b3ef-4778-9e2a-b63823366241",
+    "name": "Search_8",
+    "commands": [{
+      "id": "0805cf20-760a-47b8-8d27-ef44ea59e326",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f2c1a70-ed0e-470a-a205-254afc817d6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4b9f155-a88c-4585-b249-a1d05c1e0926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78bf93c2-e211-402c-adf7-750436bd095d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='test123@']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test123@"
+    }, {
+      "id": "b9d1f148-e65c-4ae4-a7c8-102886d86efa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT",
+      "targets": [
+        ["css=.sc-pQsrT", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bec46650-08d0-41a2-9484-cafd73ff8dd7",
+    "name": "Search_9",
+    "commands": [{
+      "id": "ff5a0078-ae40-4301-8859-cc37aeb3602e",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dce97342-b199-40ec-abe5-a475bf074543",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f841cd6-1b5f-4e6c-91d8-b8de91816677",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-pITNg",
+      "targets": [
+        ["css=.sc-pITNg", "css:finder"],
+        ["xpath=//input[@value='1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    }, {
+      "id": "6ea834eb-7b43-45ad-8ab9-72351bc5a384",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT",
+      "targets": [
+        ["css=.sc-pQsrT", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e3733d9-cbf4-4a4c-9826-d6a86aff9c25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b2999a7-3e60-4aef-aa99-1c3060e2c5da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "efbab708-f773-4e7a-bf6d-cd418f6d82a3",
+    "name": "Search_10",
+    "commands": [{
+      "id": "50bfca3c-cb6f-450a-b949-95e0eb49bb30",
+      "comment": "",
+      "command": "open",
+      "target": "https://qc.atalink.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0650849e-3513-48c7-8b45-6690d4dd89f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef701fcc-a359-42da-ae0c-2082d78df85d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pQsrT > img",
+      "targets": [
+        ["css=.sc-pQsrT > img", "css:finder"],
+        ["xpath=//div[@id='__next']/section/div/div/div/div/div/div/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28d594f7-36e0-4690-92f9-fed8f268aae6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dd1f00c8-2973-4bd2-8ae2-b3f2e2fdb461"]
+  }],
+  "urls": [],
+  "plugins": []
+}

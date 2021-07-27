@@ -1,0 +1,353 @@
+{
+  "id": "6c0c7971-3bce-40fc-ab17-d1d3a0e6cab5",
+  "version": "2.0",
+  "name": "Practice Automation testing _SORT&nbsp;",
+  "url": "http://practice.automationtesting.in/",
+  "tests": [{
+    "id": "327d7bc7-5f8e-4cae-8c2d-babd6ddcf58f",
+    "name": "TC_1",
+    "commands": [{
+      "id": "21bc6009-50f5-4d31-8efd-07b6351f2228",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "935193be-9c44-48fa-89c9-2e09ab11e723",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17fe8353-229f-4e79-aac5-6d7d1635b126",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-nav",
+      "targets": [
+        ["id=main-nav", "id"],
+        ["css=#main-nav", "css:finder"],
+        ["xpath=//ul[@id='main-nav']", "xpath:attributes"],
+        ["xpath=//nav[@id='main-nav-wrap']/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80c63dbb-1be0-4ddd-aff4-642eb70d02cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354bd914-5f4c-47f3-ad23-4fb4c25cdb66",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9085a5e-6728-4de8-9131-2cb1f777aae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#text-33-0-0-1 > p",
+      "targets": [
+        ["css=#text-33-0-0-1 > p", "css:finder"],
+        ["xpath=//div[@id='text-33-0-0-1']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'\n\n\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5cd176f5-9f7e-4d9a-88db-0b0337a00863",
+    "name": "TC_2",
+    "commands": [{
+      "id": "58516a27-e750-4f26-a2d8-386b21ad7da2",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae9abe18-458a-42ec-8db5-d81b720dcff1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10829d50-5dd8-435f-b874-8a61f629253a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83502702-bb82-47e1-8cf7-5952dc9a12ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e764ff-79e9-4724-8784-e143aa7662bd",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Sort by popularity"
+    }]
+  }, {
+    "id": "463ffafd-b3de-4b44-ba3f-62a782f88600",
+    "name": "TC_3",
+    "commands": [{
+      "id": "244f9fbe-245e-4d4a-a61c-4c96f7205c6a",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44fa0470-d795-4e5e-a607-177954cfcad3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b9745d7-3901-4e99-9df3-ea4426ebf88f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83e0fa5-0bce-473b-b335-e4e976d639fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd73c1e2-8957-4809-8390-bcd74a9d7b2b",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Sort by average rating"
+    }]
+  }, {
+    "id": "45457ee0-00aa-4537-9903-ad48e5ead51f",
+    "name": "TC_4",
+    "commands": [{
+      "id": "1cb4f2ec-36fe-46c7-909c-2d16bc64c8d4",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e646941-9d8b-4cf5-a25e-a1f11d2c9a73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b5563a4-3084-4a3f-9e3a-1a14fa90e0ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf22e365-f83d-4f57-b80e-d5870f0d5ba8",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80556674-a6ac-485c-87c6-e744ca9a2f8a",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Sort by newness"
+    }]
+  }, {
+    "id": "1a610dd0-0a16-425a-99a3-8f4b57c8fff5",
+    "name": "TC_5",
+    "commands": [{
+      "id": "82c620ba-a80e-4017-8517-c9b0550550d5",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b10b3d57-168e-4be0-86a2-dd18a896e17c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40071dd1-9e78-4a45-a2ee-5aa25c185b7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c1f7ee6-452d-4edf-8c1f-af10f461669f",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8353ecaf-5eb3-4fb3-8764-01d3c7b57c14",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Sort by price: low to high"
+    }]
+  }, {
+    "id": "5ef32a99-da4b-418c-a4e0-a14875030ff8",
+    "name": "TC_6",
+    "commands": [{
+      "id": "65b6191b-2aa5-4e1f-b963-4a952f327073",
+      "comment": "",
+      "command": "open",
+      "target": "http://practice.automationtesting.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a012733-5912-4493-9e41-111903759eac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f48108d2-adc6-4199-b2d9-3f9a29439107",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop",
+      "targets": [
+        ["linkText=Shop", "linkText"],
+        ["css=#menu-item-40 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-40']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/shop/']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7dbe75-9149-44bc-aec2-5296cd36e98c",
+      "comment": "",
+      "command": "click",
+      "target": "name=orderby",
+      "targets": [
+        ["name=orderby", "name"],
+        ["css=.orderby", "css:finder"],
+        ["xpath=//select[@name='orderby']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53f722c4-21c1-4368-bc85-10d41fa264de",
+      "comment": "",
+      "command": "select",
+      "target": "name=orderby",
+      "targets": [],
+      "value": "label=Sort by price: high to low"
+    }]
+  }],
+  "suites": [{
+    "id": "58d33e07-89ff-4aba-a46f-2050906fab10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://practice.automationtesting.in/"],
+  "plugins": []
+}
