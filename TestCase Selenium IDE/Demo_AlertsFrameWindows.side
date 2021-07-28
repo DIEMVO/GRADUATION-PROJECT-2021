@@ -1,0 +1,529 @@
+{
+  "id": "f2ff33ae-839b-42e1-b752-0cbdfa88b699",
+  "version": "2.0",
+  "name": "Demo_AlertsFrameWindows",
+  "url": "https://demoqa.com/alerts",
+  "tests": [{
+    "id": "10e0656a-1778-400b-a0a6-d0cd92bdab1f",
+    "name": "BrowserWindows_1",
+    "commands": [{
+      "id": "8c296147-24dc-4414-94f7-b19b384acfd5",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "815adf9c-e388-4310-872b-63e1502926e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c8e2124-27d2-43f0-8acb-4e16d3901d98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-0 > .text",
+      "targets": [
+        ["css=.show #item-0 > .text", "css:finder"],
+        ["xpath=(//li[@id='item-0']/span)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Browser Windows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b46a468f-f127-49f3-8cea-bdf71de600ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabButton",
+      "targets": [
+        ["id=tabButton", "id"],
+        ["css=#tabButton", "css:finder"],
+        ["xpath=//button[@id='tabButton']", "xpath:attributes"],
+        ["xpath=//div[@id='tabButtonWrapper']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New Tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win102",
+      "windowTimeout": 2000
+    }, {
+      "id": "2f48830f-0a4a-4750-94a1-eb3d39d77acd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win102}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c3b0ceb4-aa60-43c3-b7ec-32e3afb2ba8c",
+    "name": "BrowserWindows_2",
+    "commands": [{
+      "id": "9ff6f49d-e98a-41d7-acba-10dd7c35ded0",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "212c14ac-8100-436c-ad51-a570020e7b66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d8176e1-7d73-4f92-b2f8-bf6d6599d438",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-0 > .text",
+      "targets": [
+        ["css=.show #item-0 > .text", "css:finder"],
+        ["xpath=(//li[@id='item-0']/span)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Browser Windows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f094ba7b-99c7-4998-8210-7eca0f462bae",
+      "comment": "",
+      "command": "click",
+      "target": "id=windowButton",
+      "targets": [
+        ["id=windowButton", "id"],
+        ["css=#windowButton", "css:finder"],
+        ["xpath=//button[@id='windowButton']", "xpath:attributes"],
+        ["xpath=//div[@id='windowButtonWrapper']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New Window')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4736",
+      "windowTimeout": 2000
+    }, {
+      "id": "8be3e514-95f3-43db-8bfc-b7c875e9801e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4736}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "62709c1f-3475-4c27-ba7b-a05feaf96f29",
+    "name": "BrowserWindows_3",
+    "commands": [{
+      "id": "3178107a-479d-4392-86e0-5cc3e2e16281",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2caf5079-e58a-45af-a651-88da30c51338",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f2a3c3c-9592-4679-9e23-f1b57516acfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-0",
+      "targets": [
+        ["css=.show #item-0", "css:finder"],
+        ["xpath=(//li[@id='item-0'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div/div[3]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Browser Windows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8651e688-6dac-4f6f-9610-11f6c9e89f2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=messageWindowButton",
+      "targets": [
+        ["id=messageWindowButton", "id"],
+        ["css=#messageWindowButton", "css:finder"],
+        ["xpath=//button[@id='messageWindowButton']", "xpath:attributes"],
+        ["xpath=//div[@id='msgWindowButtonWrapper']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New Window Message')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1278",
+      "windowTimeout": 2000
+    }, {
+      "id": "0dad2d5b-e12f-4ce4-9b80-49f962785cd2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1278}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e5d2beef-b517-4328-ba66-9dab1700e20f",
+    "name": "Alerts_1",
+    "commands": [{
+      "id": "2beb0804-fb73-4199-ad9e-b4bba9821d85",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdd649a7-3f4d-4d1a-ae0b-39e27acdde0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c26530a3-017f-4dc2-a0b6-bc5bb0cce56c",
+      "comment": "",
+      "command": "click",
+      "target": "id=alertButton",
+      "targets": [
+        ["id=alertButton", "id"],
+        ["css=#alertButton", "css:finder"],
+        ["xpath=//button[@id='alertButton']", "xpath:attributes"],
+        ["xpath=//div[@id='javascriptAlertsWrapper']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2642c42f-f827-4d80-8f49-04e80201d27c",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "You clicked a button",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "68437a06-ca36-45b5-a4d0-37a91f17ec12",
+    "name": "Alerts_2",
+    "commands": [{
+      "id": "6cd6a411-5774-4c69-a011-29f1749da067",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e412e88-272d-47ce-bd1c-e1108a42e297",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40c8ffcf-4014-4659-8ee8-37d747b4df11",
+      "comment": "",
+      "command": "click",
+      "target": "id=timerAlertButton",
+      "targets": [
+        ["id=timerAlertButton", "id"],
+        ["css=#timerAlertButton", "css:finder"],
+        ["xpath=//button[@id='timerAlertButton']", "xpath:attributes"],
+        ["xpath=//div[@id='javascriptAlertsWrapper']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08a585f9-ed12-4cdb-92a2-face371be79a",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This alert appeared after 5 seconds",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "adb69f75-4502-415c-8567-8e4de718f992",
+    "name": "Alerts_3",
+    "commands": [{
+      "id": "9bee32b5-9b89-4447-b280-fc34d0c782a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ff5a022-3306-4ce7-8609-20c91b7450a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "754751bf-1f57-4a91-a973-9266216add33",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a849cfa3-1b87-49a1-b0c9-6151ec40d768",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmButton",
+      "targets": [
+        ["id=confirmButton", "id"],
+        ["css=#confirmButton", "css:finder"],
+        ["xpath=//button[@id='confirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='javascriptAlertsWrapper']/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0948f171-763b-4fba-8866-608350c05cfb",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Do you confirm action?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41eb0afa-d19f-4c8a-8794-89faa1df9ad2",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "973ff289-102c-4fa0-9bc2-ea497308637e",
+    "name": "Alerts_4",
+    "commands": [{
+      "id": "beaadd78-3beb-4530-b41a-b35322c21f9d",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57fef492-a553-4921-ad4b-a9592976aca0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23e3724d-b7bd-4a61-beb1-356963a3a604",
+      "comment": "",
+      "command": "answerOnNextPrompt",
+      "target": "hi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cdbe767-b21f-4928-8740-981aabea5c0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=promtButton",
+      "targets": [
+        ["id=promtButton", "id"],
+        ["css=#promtButton", "css:finder"],
+        ["xpath=//button[@id='promtButton']", "xpath:attributes"],
+        ["xpath=//div[@id='javascriptAlertsWrapper']/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c36b33-46fc-418a-b645-a2421ef63c69",
+      "comment": "",
+      "command": "assertPrompt",
+      "target": "Please enter your name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e60ae7b-9821-4afc-9499-de8bc2b7e03a",
+      "comment": "",
+      "command": "webdriverAnswerOnVisiblePrompt",
+      "target": "hi",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f31210c7-a02b-4d36-bcb0-b65abb4c266f",
+    "name": "ModalDialogs_1",
+    "commands": [{
+      "id": "f280c694-3459-4386-92ba-41df24f67f9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48bd48c4-d4b5-4e68-9c21-201ab2d50801",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dea2d9f-b5e9-4f19-a1c2-9248e11323ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-4 > .text",
+      "targets": [
+        ["css=.show #item-4 > .text", "css:finder"],
+        ["xpath=(//li[@id='item-4']/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Modal Dialogs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f280a37-69c9-4c6e-bbe2-c99f6fa50cda",
+      "comment": "",
+      "command": "click",
+      "target": "id=showSmallModal",
+      "targets": [
+        ["id=showSmallModal", "id"],
+        ["css=#showSmallModal", "css:finder"],
+        ["xpath=//button[@id='showSmallModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Small modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d8074ab-6a7f-4ddc-afc9-036742601de0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=showSmallModal",
+      "targets": [
+        ["id=showSmallModal", "id"],
+        ["css=#showSmallModal", "css:finder"],
+        ["xpath=//button[@id='showSmallModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Small modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3280a3a0-4257-455f-9ddc-b1cff7d78ac6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=showSmallModal",
+      "targets": [
+        ["id=showSmallModal", "id"],
+        ["css=#showSmallModal", "css:finder"],
+        ["xpath=//button[@id='showSmallModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Small modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bd51d98-93c9-4108-8d87-ce80560b2931",
+      "comment": "",
+      "command": "click",
+      "target": "id=closeSmallModal",
+      "targets": [
+        ["id=closeSmallModal", "id"],
+        ["css=#closeSmallModal", "css:finder"],
+        ["xpath=//button[@id='closeSmallModal']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f9235288-9e14-49ed-b663-6853efeed53b",
+    "name": "ModalDialogs_2",
+    "commands": [{
+      "id": "87cda0f0-1967-45ac-99d4-c532054c2c51",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/alerts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bd0d5f9-9f0b-4c64-ac44-e6247311e48e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5d32602-a318-4383-9520-238d9e8d480b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-4 > .text",
+      "targets": [
+        ["css=.show #item-4 > .text", "css:finder"],
+        ["xpath=(//li[@id='item-4']/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Modal Dialogs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2355dc04-d226-4a7b-9943-38d5dbf406c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=showLargeModal",
+      "targets": [
+        ["id=showLargeModal", "id"],
+        ["css=#showLargeModal", "css:finder"],
+        ["xpath=//button[@id='showLargeModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Large modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "116debda-222c-492b-95a7-1aa3704751fe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=showLargeModal",
+      "targets": [
+        ["id=showLargeModal", "id"],
+        ["css=#showLargeModal", "css:finder"],
+        ["xpath=//button[@id='showLargeModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Large modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c8215c0-2f67-40db-b646-127ae00aef53",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=showLargeModal",
+      "targets": [
+        ["id=showLargeModal", "id"],
+        ["css=#showLargeModal", "css:finder"],
+        ["xpath=//button[@id='showLargeModal']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWrapper']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Large modal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdf2db8e-b312-49d2-8116-b223e77dc6ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=closeLargeModal",
+      "targets": [
+        ["id=closeLargeModal", "id"],
+        ["css=#closeLargeModal", "css:finder"],
+        ["xpath=//button[@id='closeLargeModal']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e404572-a739-4fdd-b8cd-013eae03f303",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.phptravels.net/home", "https://demoqa.com/alerts"],
+  "plugins": []
+}
